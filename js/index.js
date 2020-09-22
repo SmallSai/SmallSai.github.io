@@ -84,4 +84,25 @@ $(document).ready(function(){
 		// });
 		
 	});
+	
+	// 游戏图片展示
+	var dropDragonIma=document.getElementsByClassName("dropdragon_thumb");
+	var dropDragonPlace=document.getElementById("dropDragon_ima");
+	
+	for(var i=0;i<dropDragonIma.length;i++){
+		dropDragonIma[i].onmouseover=function(){
+			var source="img/dropdragon/d"+this.getAttribute("value")+".jpg";
+			dropDragonPlace.setAttribute("src",source);
+		}
+	}
+	
+	var ellioIma=document.getElementsByClassName("ellio_thumb");//缩略图
+	var ellioPlace=document.getElementById("ellio_ima");//显示的大图
+	
+	for(var i=0;i<ellioIma.length;i++){
+		ellioIma[i].onmouseover=function(){
+			var source="img/ellio/e"+this.getAttribute("value")+".jpg";
+			ellioPlace.setAttribute("src",source);
+		}
+	}
 })

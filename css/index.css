@@ -10,7 +10,7 @@ html,body{
 
 #cont{
 	width: 1200px;
-	margin: 0 auto;
+	margin: 0 auto 100px;
 	
 }
 
@@ -45,8 +45,6 @@ html,body{
 
 #work_content{
 	display: none;
-	height: 800px;
-	border: solid 1px;
 }
 
 .subhead{
@@ -65,7 +63,7 @@ td{
 	font-family: "宋体","楷体";
 }
 
-.content_cont{
+.content_cont,#work_content{
 	width: 94%;
 	margin: 10px auto 60px;
 }
@@ -87,6 +85,7 @@ table{
 
 .p_word{
 	line-height: 175%;
+	margin-top: 10px;
 }
 
 .left_space{
@@ -97,4 +96,68 @@ a{
 	font-size: inherit;
 	text-decoration: none;
 	border: none;
+}
+
+/* 附加信息 */
+.explain_cont{
+	width: 95%;
+	margin: 5px auto;
+}
+
+.explain{
+	font-size: 21px;
+	font-family: "宋体","楷体";
+	line-height: 200%;
+}
+
+/* 作品展示 */
+.thumbnail_cont{
+	float: right;
+	width: 100px;
+	height: 337px;
+}
+
+.game_ima_cont{
+	width: 620px;
+	margin: 0 auto 25px;
+}
+
+/* 截图，简介 */
+.sub_subhead,.game_word{
+	font-size: 23px;
+	font-family: "宋体","楷体";
+}
+
+.sub_subhead{
+	margin: 15px 0 15px 70px;
+}
+
+.game_word{
+	font-size: 20px;
+}
+
+.float_right{
+	float: right;
+	width: 900px;
+}
+
+.game_word_cont{
+	width: 88%;
+	margin: 30px auto 80px;
+	
+}
+
+/* 截图 */
+#dropDragon_ima{
+	border-radius: 5px;
+}
+
+.dropdragon_thumb:hover,.ellio_thumb:hover{
+	border: solid 3px #2ce85b;
+}
+
+.dropdragon_thumb,.ellio_thumb{
+	cursor: pointer;
+	border-radius: 3px;
+	margin: 7px 0;
 }
