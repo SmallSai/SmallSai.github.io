@@ -88,6 +88,10 @@ table{
 	margin-top: 10px;
 }
 
+.text_indent_2{
+	text-indent: 2em;
+}
+
 .left_space{
 	margin-left: 40px;
 }
